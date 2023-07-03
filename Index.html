@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star-wars-searchbar</title>
+    <link rel="stylesheet" href="./css/page1.css">
+</head>
+
+<body>
+   
+    <section class="showcase">
+        <video src="./utils/sparkle.mp4" muted loop autoplay></video>
+       
+      
+       
+        <div id="main" class="text">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6XIYpkCUKvDL77B1D4E_0NTakUOAbEyvhinBbVwjE7a-1lwtr7sf2t_ZYq62i5VXDqOs&usqp=CAU">
+            <input type="text" oninput="debounce(main,1000)" id="query">
+            <div id="movies"></div>
+           
+        </div>
+    </section>
+</body>
+
+</html>
+<script src="./js/page1.js"></script>
